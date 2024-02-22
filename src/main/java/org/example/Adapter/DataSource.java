@@ -1,2 +1,6 @@
-package org.example.Adapter;public class DataSource {
+package org.example.Adapter;
+
+public interface DataSource {
+    public String getNomeCompleto();
+    public int getEta();
 }
